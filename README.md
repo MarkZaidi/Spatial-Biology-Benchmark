@@ -1,6 +1,8 @@
 # Spatial-Biology-Benchmark
 A QuPath Benchmark to evaluate workstation performance for processing of spatial biology datasets.
 
+![cover art](https://github.com/MarkZaidi/Spatial-Biology-Benchmark/assets/52012166/863fb2d7-4c82-4ce6-a843-d47855277ab8)
+
 This script was developed to test common elements of a spatial biology workflow applied to a large multiplexed immunohistochemistry image. This can be considered a more comphrensive and advanced version of [QuMark](https://github.com/MarkZaidi/QuMark), with a few additional changed to thoroughly test each element of a workstation's hardware, allowing the user to identify any rate limiting components of their system and address them accordingly. 
 
 ## Stages
@@ -49,3 +51,11 @@ The output of running this script will be a `timings_xxx.txt` file. Each line wi
 `Build time: 2023-10-07, 11:08` - build time of QuPath build
 
 `Cell Count Verification: PASS` - a sort of "cellular checksum" which is set to `PASS` if the number of detected cells matches what's expected.
+
+## Installation
+1. Build QuPath from source, with CUDA if you have a CUDA-compatible GPU (most modern Nvidia GPUs), as outlined here: https://qupath.readthedocs.io/en/stable/docs/reference/building.html. Tested with 0.5.0-rc1.
+2. Download and install StarDist Extension for QuPath: https://github.com/qupath/qupath-extension-stardist. Tested with 0.4.0.
+3. 
+
+
+
