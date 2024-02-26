@@ -52,13 +52,17 @@ The output of running this script will be a `timings_xxx.txt` file. Each line wi
 
 `Cell Count Verification: PASS` - a sort of "cellular checksum" which is set to `PASS` if the number of detected cells matches what's expected.
 
-## Installation
+## Installation and Usage
 1. Build QuPath from source, with CUDA if you have a CUDA-compatible GPU (most modern Nvidia GPUs), as outlined here: https://qupath.readthedocs.io/en/stable/docs/reference/building.html. Tested with 0.5.0-rc1.
 2. Download and install StarDist Extension for QuPath: https://github.com/qupath/qupath-extension-stardist. Tested with 0.4.0.
 3. Download the `DSB2018_heavy_augment.pb` stardist model from here: https://github.com/qupath/models/raw/main/stardist/dsb2018_heavy_augment.pb
 4. Download the `Spatial Biology Benchmark` folder from this repository. This is a QuPath project that contains all the relevant scripts, classifiers, and project metadata required to be able to run the benchmark
-5.  In `Benchmark Project\scripts\Spatial biology benchmarking script v1.groovy`, set `modelPath` to point to the path of your downloaded `DSB2018_heavy_augment.pb` stardist model
-6.  
+5. In `Benchmark Project\scripts\Spatial biology benchmarking script v1.groovy`, set `modelPath` to point to the path of your downloaded `DSB2018_heavy_augment.pb` stardist model
+6. Download the benchmark image `Multiplexed image.qptiff`. I haven't decided on a good way to host this, so for now Camillo, just shoot me an email and I'll send it to you via Google Drive or something.
+7. Open the QuPath project in QuPath. During the first time opening this, QuPath will prompt you for the location of `Multiplexed image.qptiff`, so you'll have to set that to wherever the image is stored. Again, make sure both the project and image are stored on a fast storage device like an SSD. Or if you're really crazy, 4 Gen 5 NVMes in a PCIe x16 slot, all in RAID 0.
+8. Without opening the project entry, run the script `Spatial biology benchmarking script v1.groovy` on the desired benchmarking project entry. There are 4 entries to choose from: `benchmark - full`, `benchmark - large`, `benchmark - medium`, and `benchmark - small`. The smaller the test, the faster it will run, but the less representative it will be of a true multiplexed WSI. `benchmark - full` is recommended, and can take anywhere from 1 hour to overnight, depending on your system specs. If you want to just verify that this script will run, use `benchmark - small`.
+9. Review the generated `timings_xxx.txt` and confirm that the cell count verification has passed.
+10. Share the results with your colleagues or on social media!
 
 
 
