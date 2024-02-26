@@ -1,0 +1,1085 @@
+{
+  "object_classifier_type": "CompositeClassifier",
+  "classifiers": [
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD20: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD20",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD20",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "threshold": 37.07974997751518
+      },
+      "pathClasses": [
+        {
+          "name": "CD20",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366302698
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Vimentin: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Vimentin",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Vimentin",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "threshold": 57.551353502272605
+      },
+      "pathClasses": [
+        {
+          "name": "Vimentin",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366251602
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Keratin 14: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Keratin 14",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Keratin 14",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "threshold": 21.403132887172525
+      },
+      "pathClasses": [
+        {
+          "name": "Keratin 14",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366529561
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Collagen IV: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Collagen IV",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Collagen IV",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "threshold": 4.100526996731168
+      },
+      "pathClasses": [
+        {
+          "name": "Collagen IV",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366319026
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "PCNA: Nucleus: Mean",
+        "pathClassEquals": {
+          "name": "PCNA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "pathClassAbove": {
+          "name": "PCNA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "threshold": 112.04339637546688
+      },
+      "pathClasses": [
+        {
+          "name": "PCNA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366170245
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD11c: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD11c",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD11c",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "threshold": 7.8264980605642425
+      },
+      "pathClasses": [
+        {
+          "name": "CD11c",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366269709
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD11b: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD11b",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD11b",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "threshold": 0.12026125657730757
+      },
+      "pathClasses": [
+        {
+          "name": "CD11b",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366515922
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Pan-Cytokeratin: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Pan-Cytokeratin",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Pan-Cytokeratin",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "threshold": 17.20702153635758
+      },
+      "pathClasses": [
+        {
+          "name": "Pan-Cytokeratin",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366149793
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Granzyme B: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Granzyme B",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Granzyme B",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        },
+        "threshold": 0.09198379166743946
+      },
+      "pathClasses": [
+        {
+          "name": "Granzyme B",
+          "color": [
+            165,
+            42,
+            42
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366594297
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "LAG-3: Cell: Mean",
+        "pathClassEquals": {
+          "name": "LAG-3",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "LAG-3",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "threshold": 15.643275885506874
+      },
+      "pathClasses": [
+        {
+          "name": "LAG-3",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366644055
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD14: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD14",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD14",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        "threshold": 2.8806441289097515
+      },
+      "pathClasses": [
+        {
+          "name": "CD14",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366487702
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "ICOS: Cell: Mean",
+        "pathClassEquals": {
+          "name": "ICOS",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "ICOS",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        "threshold": 6.651718207792593
+      },
+      "pathClasses": [
+        {
+          "name": "ICOS",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366637968
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Ki67: Nucleus: Mean",
+        "pathClassEquals": {
+          "name": "Ki67",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Ki67",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "threshold": 6.255916322469824
+      },
+      "pathClasses": [
+        {
+          "name": "Ki67",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366179739
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Podoplanin: Cell: Mean",
+        "pathClassEquals": {
+          "name": "Podoplanin",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "Podoplanin",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "threshold": 7.920784345530865
+      },
+      "pathClasses": [
+        {
+          "name": "Podoplanin",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366285620
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD31: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD31",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD31",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        },
+        "threshold": 3.6430624569008465
+      },
+      "pathClasses": [
+        {
+          "name": "CD31",
+          "color": [
+            255,
+            128,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366103412
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD107a: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD107a",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD107a",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "threshold": 14.348791902206138
+      },
+      "pathClasses": [
+        {
+          "name": "CD107a",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366121967
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "SMA: Cell: Mean",
+        "pathClassEquals": {
+          "name": "SMA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "pathClassAbove": {
+          "name": "SMA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "threshold": 2.78926913637902
+      },
+      "pathClasses": [
+        {
+          "name": "SMA",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366610092
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "HLA-A: Cell: Mean",
+        "pathClassEquals": {
+          "name": "HLA-A",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "HLA-A",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        "threshold": 35.876115183626524
+      },
+      "pathClasses": [
+        {
+          "name": "HLA-A",
+          "color": [
+            255,
+            0,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366194457
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD4: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "threshold": 28.474437134097847
+      },
+      "pathClasses": [
+        {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366449387
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD45RO: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "threshold": 4.402483089027546
+      },
+      "pathClasses": [
+        {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366134857
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "HLA-DR: Cell: Mean",
+        "pathClassEquals": {
+          "name": "HLA-DR",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "HLA-DR",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "threshold": 65.61393732014643
+      },
+      "pathClasses": [
+        {
+          "name": "HLA-DR",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366212907
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD8: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD8",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD8",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        "threshold": 7.097831786437677
+      },
+      "pathClasses": [
+        {
+          "name": "CD8",
+          "color": [
+            0,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366234536
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD68: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD68",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD68",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "threshold": 31.9984447652534
+      },
+      "pathClasses": [
+        {
+          "name": "CD68",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366628808
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "b-Catenin1: Cell: Mean",
+        "pathClassEquals": {
+          "name": "b-Catenin1",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "b-Catenin1",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        "threshold": 4.057597739133187
+      },
+      "pathClasses": [
+        {
+          "name": "b-Catenin1",
+          "color": [
+            0,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366471304
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD45: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "threshold": 150.3528509379286
+      },
+      "pathClasses": [
+        {
+          "name": "CD45RO",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366661114
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "PD-1: Cell: Mean",
+        "pathClassEquals": {
+          "name": "PD-1",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "PD-1",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        "threshold": 0.40485643736778776
+      },
+      "pathClasses": [
+        {
+          "name": "PD-1",
+          "color": [
+            0,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366562400
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD44: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        "threshold": 7.32741784302031
+      },
+      "pathClasses": [
+        {
+          "name": "CD44",
+          "color": [
+            255,
+            255,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366068944
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD66: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD66",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD66",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        },
+        "threshold": 0.3628270686557044
+      },
+      "pathClasses": [
+        {
+          "name": "CD66",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366365545
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "CD21: Cell: Mean",
+        "pathClassEquals": {
+          "name": "CD21",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD21",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        "threshold": 17.623816596037432
+      },
+      "pathClasses": [
+        {
+          "name": "CD21",
+          "color": [
+            255,
+            192,
+            203
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366339479
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "IDO1: Cell: Mean",
+        "pathClassEquals": {
+          "name": "IDO1",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "pathClassAbove": {
+          "name": "IDO1",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        "threshold": 5.347574557526121
+      },
+      "pathClasses": [
+        {
+          "name": "IDO1",
+          "color": [
+            255,
+            0,
+            255
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1708366571796
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "ICOS: Cell: Mean",
+    "pathClassEquals": {
+      "name": "ICOS",
+      "color": [
+        255,
+        0,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "ICOS",
+      "color": [
+        255,
+        0,
+        0
+      ]
+    },
+    "threshold": 6.651718207792593
+  },
+  "pathClasses": [
+    {
+      "name": "ICOS",
+      "color": [
+        255,
+        0,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366637968
+}

@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Ki67: Nucleus: Mean",
+    "pathClassEquals": {
+      "name": "Ki67",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Ki67",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "threshold": 6.255916322469824
+  },
+  "pathClasses": [
+    {
+      "name": "Ki67",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366179739
+}

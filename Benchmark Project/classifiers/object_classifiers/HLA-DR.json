@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "HLA-DR: Cell: Mean",
+    "pathClassEquals": {
+      "name": "HLA-DR",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "HLA-DR",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "threshold": 65.61393732014643
+  },
+  "pathClasses": [
+    {
+      "name": "HLA-DR",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366212907
+}

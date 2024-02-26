@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "SMA: Cell: Mean",
+    "pathClassEquals": {
+      "name": "SMA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "pathClassAbove": {
+      "name": "SMA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "threshold": 2.78926913637902
+  },
+  "pathClasses": [
+    {
+      "name": "SMA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366610092
+}

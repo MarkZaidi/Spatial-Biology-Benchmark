@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "CD20: Cell: Mean",
+    "pathClassEquals": {
+      "name": "CD20",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "CD20",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "threshold": 37.07974997751518
+  },
+  "pathClasses": [
+    {
+      "name": "CD20",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366302698
+}

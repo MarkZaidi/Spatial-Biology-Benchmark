@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "PCNA: Nucleus: Mean",
+    "pathClassEquals": {
+      "name": "PCNA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "pathClassAbove": {
+      "name": "PCNA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "threshold": 112.04339637546688
+  },
+  "pathClasses": [
+    {
+      "name": "PCNA",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366170245
+}

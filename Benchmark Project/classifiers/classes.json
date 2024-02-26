@@ -1,0 +1,172 @@
+{
+  "pathClasses": [
+    {
+      "name": "Tumor",
+      "color": -3670016
+    },
+    {
+      "name": "Stroma",
+      "color": -6895466
+    },
+    {
+      "name": "Immune cells",
+      "color": -6268256
+    },
+    {
+      "name": "Necrosis",
+      "color": -16777216
+    },
+    {
+      "name": "Other",
+      "color": -14336
+    },
+    {
+      "name": "Region*",
+      "color": -16777036
+    },
+    {
+      "name": "Ignore*",
+      "color": -4934476
+    },
+    {
+      "name": "Positive",
+      "color": -377282
+    },
+    {
+      "name": "Negative",
+      "color": -9408287
+    },
+    {
+      "name": "DAPI",
+      "color": -16776961
+    },
+    {
+      "name": "CD44",
+      "color": -256
+    },
+    {
+      "name": "CD31",
+      "color": -32768
+    },
+    {
+      "name": "CD107a",
+      "color": -16711681
+    },
+    {
+      "name": "CD45RO",
+      "color": -65281
+    },
+    {
+      "name": "Pan-Cytokeratin",
+      "color": -5952982
+    },
+    {
+      "name": "PCNA",
+      "color": -16181
+    },
+    {
+      "name": "Ki67",
+      "color": -1
+    },
+    {
+      "name": "HLA-A",
+      "color": -65536
+    },
+    {
+      "name": "HLA-DR",
+      "color": -16711936
+    },
+    {
+      "name": "CD8",
+      "color": -16776961
+    },
+    {
+      "name": "Vimentin",
+      "color": -256
+    },
+    {
+      "name": "CD11c",
+      "color": -32768
+    },
+    {
+      "name": "Podoplanin",
+      "color": -16711681
+    },
+    {
+      "name": "CD20",
+      "color": -65281
+    },
+    {
+      "name": "Collagen IV",
+      "color": -5952982
+    },
+    {
+      "name": "CD21",
+      "color": -16181
+    },
+    {
+      "name": "CD66",
+      "color": -1
+    },
+    {
+      "name": "CD4",
+      "color": -65536
+    },
+    {
+      "name": "b-Catenin1",
+      "color": -16711936
+    },
+    {
+      "name": "CD14",
+      "color": -16776961
+    },
+    {
+      "name": "CD11b",
+      "color": -256
+    },
+    {
+      "name": "Keratin 14",
+      "color": -32768
+    },
+    {
+      "name": "PD-1",
+      "color": -16711681
+    },
+    {
+      "name": "IDO1",
+      "color": -65281
+    },
+    {
+      "name": "Granzyme B",
+      "color": -5952982
+    },
+    {
+      "name": "SMA",
+      "color": -16181
+    },
+    {
+      "name": "CD68",
+      "color": -1
+    },
+    {
+      "name": "ICOS",
+      "color": -65536
+    },
+    {
+      "name": "LAG-3",
+      "color": -16711936
+    },
+    {
+      "name": "CD45",
+      "color": -16776961
+    },
+    {
+      "name": "PCK_Pos",
+      "color": -256
+    },
+    {
+      "name": "PCK_Neg",
+      "color": -16776961
+    }
+  ]
+}

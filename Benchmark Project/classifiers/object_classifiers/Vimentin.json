@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Vimentin: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Vimentin",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Vimentin",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    },
+    "threshold": 57.551353502272605
+  },
+  "pathClasses": [
+    {
+      "name": "Vimentin",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366251602
+}

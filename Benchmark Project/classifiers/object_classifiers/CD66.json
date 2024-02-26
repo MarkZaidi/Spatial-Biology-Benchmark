@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "CD66: Cell: Mean",
+    "pathClassEquals": {
+      "name": "CD66",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "CD66",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "threshold": 0.3628270686557044
+  },
+  "pathClasses": [
+    {
+      "name": "CD66",
+      "color": [
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366365545
+}

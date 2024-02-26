@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "PD-1: Cell: Mean",
+    "pathClassEquals": {
+      "name": "PD-1",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "PD-1",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    },
+    "threshold": 0.40485643736778776
+  },
+  "pathClasses": [
+    {
+      "name": "PD-1",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366562400
+}

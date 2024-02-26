@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Pan-Cytokeratin: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Pan-Cytokeratin",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Pan-Cytokeratin",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "threshold": 17.20702153635758
+  },
+  "pathClasses": [
+    {
+      "name": "Pan-Cytokeratin",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366149793
+}

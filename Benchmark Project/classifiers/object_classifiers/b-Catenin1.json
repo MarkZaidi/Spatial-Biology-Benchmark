@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "b-Catenin1: Cell: Mean",
+    "pathClassEquals": {
+      "name": "b-Catenin1",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "b-Catenin1",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "threshold": 4.057597739133187
+  },
+  "pathClasses": [
+    {
+      "name": "b-Catenin1",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366471304
+}

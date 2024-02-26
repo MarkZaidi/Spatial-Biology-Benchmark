@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Podoplanin: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Podoplanin",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Podoplanin",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    },
+    "threshold": 7.920784345530865
+  },
+  "pathClasses": [
+    {
+      "name": "Podoplanin",
+      "color": [
+        0,
+        255,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366285620
+}

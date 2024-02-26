@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Keratin 14: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Keratin 14",
+      "color": [
+        255,
+        128,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Keratin 14",
+      "color": [
+        255,
+        128,
+        0
+      ]
+    },
+    "threshold": 21.403132887172525
+  },
+  "pathClasses": [
+    {
+      "name": "Keratin 14",
+      "color": [
+        255,
+        128,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366529561
+}

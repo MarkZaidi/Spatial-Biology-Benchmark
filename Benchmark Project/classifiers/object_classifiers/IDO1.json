@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "IDO1: Cell: Mean",
+    "pathClassEquals": {
+      "name": "IDO1",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "IDO1",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "threshold": 5.347574557526121
+  },
+  "pathClasses": [
+    {
+      "name": "IDO1",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366571796
+}

@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Collagen IV: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Collagen IV",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Collagen IV",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "threshold": 4.100526996731168
+  },
+  "pathClasses": [
+    {
+      "name": "Collagen IV",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366319026
+}

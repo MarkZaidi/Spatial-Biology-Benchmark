@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "CD45RO: Cell: Mean",
+    "pathClassEquals": {
+      "name": "CD45RO",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "pathClassAbove": {
+      "name": "CD45RO",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    },
+    "threshold": 4.402483089027546
+  },
+  "pathClasses": [
+    {
+      "name": "CD45RO",
+      "color": [
+        255,
+        0,
+        255
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366134857
+}

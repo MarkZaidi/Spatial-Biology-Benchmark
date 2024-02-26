@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Granzyme B: Cell: Mean",
+    "pathClassEquals": {
+      "name": "Granzyme B",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "pathClassAbove": {
+      "name": "Granzyme B",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    },
+    "threshold": 0.09198379166743946
+  },
+  "pathClasses": [
+    {
+      "name": "Granzyme B",
+      "color": [
+        165,
+        42,
+        42
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366594297
+}

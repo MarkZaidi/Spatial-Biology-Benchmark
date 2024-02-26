@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "CD21: Cell: Mean",
+    "pathClassEquals": {
+      "name": "CD21",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "pathClassAbove": {
+      "name": "CD21",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    },
+    "threshold": 17.623816596037432
+  },
+  "pathClasses": [
+    {
+      "name": "CD21",
+      "color": [
+        255,
+        192,
+        203
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366339479
+}

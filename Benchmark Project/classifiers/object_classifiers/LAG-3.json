@@ -1,0 +1,36 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "LAG-3: Cell: Mean",
+    "pathClassEquals": {
+      "name": "LAG-3",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "pathClassAbove": {
+      "name": "LAG-3",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    },
+    "threshold": 15.643275885506874
+  },
+  "pathClasses": [
+    {
+      "name": "LAG-3",
+      "color": [
+        0,
+        255,
+        0
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1708366644055
+}
