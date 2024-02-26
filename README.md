@@ -55,7 +55,10 @@ The output of running this script will be a `timings_xxx.txt` file. Each line wi
 ## Installation
 1. Build QuPath from source, with CUDA if you have a CUDA-compatible GPU (most modern Nvidia GPUs), as outlined here: https://qupath.readthedocs.io/en/stable/docs/reference/building.html. Tested with 0.5.0-rc1.
 2. Download and install StarDist Extension for QuPath: https://github.com/qupath/qupath-extension-stardist. Tested with 0.4.0.
-3. 
+3. Download the `DSB2018_heavy_augment.pb` stardist model from here: https://github.com/qupath/models/raw/main/stardist/dsb2018_heavy_augment.pb
+4. Download the `Spatial Biology Benchmark` folder from this repository. This is a QuPath project that contains all the relevant scripts, classifiers, and project metadata required to be able to run the benchmark
+5.  In `Benchmark Project\scripts\Spatial biology benchmarking script v1.groovy`, set `modelPath` to point to the path of your downloaded `DSB2018_heavy_augment.pb` stardist model
+6.  
 
 
 
